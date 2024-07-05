@@ -1,5 +1,5 @@
 # AppleCIDR
-This will parse a scope file containing IP ranges, CIDR notations, and domains and output them as a list of individual IP addresses and domains. This helps with compatibility for tools that require IPs in a straightforward format for ingestion rather than ranges.
+Parses a scope file containing IP ranges, CIDR notations, and domains and output them as a list of individual IP addresses and domains. This helps with compatibility for tools that require IPs in a straightforward format for ingestion rather than ranges.
 
 ## Usage
 ```
