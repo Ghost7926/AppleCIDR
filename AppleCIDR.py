@@ -16,7 +16,7 @@ def extract_ips_from_range(item):
                 current_ip += 1
         elif '/' in item: # for CIDR notation ranges
             ip_net = ipaddress.ip_network(item, strict=False)
-            for ip in ip_net.hosts():
+            for ip in ip_net:
                 yield str(ip)
         else: # for domains
             ip = ipaddress.ip_address(item)
