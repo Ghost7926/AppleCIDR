@@ -1,4 +1,3 @@
-### [Work in Progress]
 # AppleCIDR
 Parses a scope file containing IP ranges, CIDR notations, and domains and will output them as a list of individual IP addresses and domains. This helps with compatibility for tools that require IP's in a straightforward format for ingestion rather than ranges. If you have exclusions you need taken out, you can add that file in the input to remove them from the listed scope file. Reference the usages listed below. 
 
