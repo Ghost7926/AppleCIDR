@@ -1,4 +1,4 @@
-<h1>AppleCIDR <img src="https://github.com/Ghost7926/AppleCIDR/assets/93566632/d0717433-867c-4c94-8fbe-5e3f30e7f7c7" alt="" width="40"> </h1>
+<h1><img src="https://github.com/user-attachments/assets/bf3f8b9d-77fb-4da6-b48a-9e4433616037" alt="" width="60"> AppleCIDR  </h1>
 
 Parses a scope file containing IP ranges, CIDR notations, and domains and will output them as a list of individual IP addresses and domains, or collapse them into the minimal set of CIDR blocks. This helps with compatibility for tools that require IPs in a straightforward format for ingestion rather than ranges, or when given odd starting and ending IP addresses. If you have exclusions you need taken out, you can add that file as an additional argument to remove them from the scope.
 
